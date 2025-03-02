@@ -1,0 +1,6 @@
+services:
+  {{ cookiecutter.project_slug }}-test:
+    container_name: {{ cookiecutter.project_slug }}-test
+    build:
+      context: .
+      target: test

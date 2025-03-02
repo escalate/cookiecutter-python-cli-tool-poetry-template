@@ -1,0 +1,1 @@
+custom: {{ cookiecutter.author_funding_url }}

@@ -1,0 +1,14 @@
+{
+  "cookiecutter": {
+    "project_name": "My new CLI tool",
+    "project_slug": "my-new-cli-tool",
+    "project_python": "my_new_cli_tool",
+    "project_description": "Explain what the project does.",
+    "project_license": "MIT",
+    "author_name": "Felix B\u00f6rner",
+    "author_funding_url": "https://paypal.me/felixboerner",
+    "_copy_without_render": [
+      ".github/workflows/*.yml"
+    ]
+  }
+}

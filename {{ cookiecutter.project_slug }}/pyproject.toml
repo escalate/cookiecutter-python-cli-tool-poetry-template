@@ -1,0 +1,42 @@
+[project]
+name = "{{ cookiecutter.project_python }}"
+version = "0.1.0"
+description = "{{ cookiecutter.project_description }}"
+authors = [
+    { name = "{{ cookiecutter.author_name }}" }
+]
+license = { text = "{{ cookiecutter.project_license }}" }
+readme = "README.md"
+requires-python = ">=3.13, <4.0"
+dynamic = ["dependencies"]
+
+[project.scripts]
+{{ cookiecutter.project_slug }} = "{{ cookiecutter.project_python }}.cli:cli"
+
+[tool.poetry.dependencies]
+click = "^8.1.0"
+loguru = "^0.7.0"
+requests = "^2.32.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+pytest-cov = "^6.0.0"
+pytest-loguru = "^0.4.0"
+responses = "^0.25.0"
+
+[tool.black]
+preview = true
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+addopts = [
+    "--cov=src/",
+    "--import-mode=importlib",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

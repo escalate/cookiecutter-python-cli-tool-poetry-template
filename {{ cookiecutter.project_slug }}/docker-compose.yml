@@ -1,0 +1,6 @@
+services:
+  {{ cookiecutter.project_slug }}:
+    container_name: {{ cookiecutter.project_slug }}
+    image: {{ cookiecutter.project_slug }}:${DOCKER_IMAGE_TAG:-latest}
+    build:
+      context: .
