@@ -7,8 +7,6 @@
     "project_license": "MIT",
     "author_name": "Felix B\u00f6rner",
     "author_funding_url": "https://paypal.me/felixboerner",
-    "_copy_without_render": [
-      ".github/workflows/*.yml"
-    ]
+    "_copy_without_render": [".github/workflows/*.yml"]
   }
 }
