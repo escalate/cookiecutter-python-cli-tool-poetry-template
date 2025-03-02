@@ -1,0 +1,7 @@
+[tool.black]
+preview = true
+extend-exclude = '^/\{\{'
+
+[tool.isort]
+profile = "black"
+skip = ["src", "tests"]
