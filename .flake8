@@ -1,0 +1,2 @@
+[flake8]
+exclude = {{*cookiecutter.project_slug*}}/
