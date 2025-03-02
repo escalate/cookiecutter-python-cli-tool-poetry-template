@@ -1,8 +1,6 @@
 import os
 
-REMOVE_PATHS = [
-    '{% if cookiecutter.project_license != "MIT" %}LICENSE{% endif %}'
-]
+REMOVE_PATHS = ['{% if cookiecutter.project_license != "MIT" %}LICENSE{% endif %}']
 
 for path in REMOVE_PATHS:
     path = path.strip()
