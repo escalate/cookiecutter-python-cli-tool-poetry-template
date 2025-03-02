@@ -1,5 +1,10 @@
 extends: default
 
+ignore: |
+  {{ cookiecutter.project_slug }}/docker-compose.yml
+  {{ cookiecutter.project_slug }}/docker-compose.test.yml
+  {{ cookiecutter.project_slug }}/docker-compose.dev.yml
+
 rules:
   braces:
     max-spaces-inside: 1
