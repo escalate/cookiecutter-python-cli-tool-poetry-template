@@ -11,7 +11,9 @@ from {{ cookiecutter.project_python }}.{{ cookiecutter.project_python }} import 
 
 @click.command()
 @click.option(
-    "--url", required=True, help="URL, e.g. https://example.com"
+    "--url",
+    required=True,
+    help="URL, e.g. https://example.com",
 )
 def cli(
     url,
