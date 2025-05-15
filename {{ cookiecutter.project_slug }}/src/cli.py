@@ -29,5 +29,9 @@ def cli(
 
 if __name__ == "__main__":
     logger.remove(0)
-    logger.add(sys.stdout, format='time={time} level={level} msg="{message}"')
+    logger.add(
+        sys.stdout,
+        level="INFO",
+        format='time={time} level={level} msg="{message}"',
+    )
     cli()
