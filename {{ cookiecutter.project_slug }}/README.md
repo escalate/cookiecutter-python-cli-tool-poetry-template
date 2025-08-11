@@ -15,7 +15,7 @@ Usage is possible via an interactive Docker container in VSCode.
 ```
 Usage: cli.py [OPTIONS]
 
-  HTTP Call CLI
+  {{ cookiecutter.project_name }}
 
 Options:
   --url TEXT  URL, e.g. https://example.com  [required]

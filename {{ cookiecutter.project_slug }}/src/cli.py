@@ -19,7 +19,7 @@ def cli(
     url,
 ):
     """
-    HTTP Call CLI
+    {{ cookiecutter.project_name }}
     """
 
     {{ cookiecutter.project_python }}(
