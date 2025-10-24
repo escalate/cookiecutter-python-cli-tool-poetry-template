@@ -30,7 +30,7 @@ jobs:
           make test
 
       - name: Upload generated test project
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: cookiecutter-test-project
           path: test/
