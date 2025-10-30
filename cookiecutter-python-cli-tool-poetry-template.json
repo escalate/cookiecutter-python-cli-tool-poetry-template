@@ -6,6 +6,7 @@
     "project_description": "Explain what the project does.",
     "project_license": "MIT",
     "author_name": "Felix B\u00f6rner",
+    "author_github_username": "escalate",
     "author_funding_url": "https://paypal.me/felixboerner",
     "_copy_without_render": [".github/workflows/*.yml"]
   }
