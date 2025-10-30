@@ -1,3 +1,5 @@
+[![Test](https://github.com/{{ cookiecutter.author_github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/{{ cookiecutter.author_github_username }}/{{ cookiecutter.project_slug }}/actions/workflows/test.yml)
+
 # {{ cookiecutter.project_name }}
 
 {{ cookiecutter.project_description }}
@@ -44,7 +46,7 @@ Open an issue here: [GitHub Issues](https://github.com/{{ cookiecutter.author_gi
 
 ## 🧪 Development
 
-Development is possible via an interactive Docker container in VSCode.
+Development is possible via an interactive Docker container in [VSCode](https://code.visualstudio.com/).
 
 1. Build and launch the [DevContainer](https://code.visualstudio.com/docs/devcontainers/containers) in VSCode.
 
