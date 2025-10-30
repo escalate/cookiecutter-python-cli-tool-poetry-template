@@ -16,7 +16,7 @@ dynamic = ["dependencies"]
 {{ cookiecutter.project_slug }} = "{{ cookiecutter.project_python }}.cli:cli"
 
 [tool.poetry.dependencies]
-click = "^8.1.0"
+click = "^8.2.0"
 loguru = "^0.7.0"
 requests = "^2.32.0"
 
