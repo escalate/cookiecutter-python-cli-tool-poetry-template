@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir --disable-pip-version-check poetry==${POETRY_VERS
     && apt-get update \
     && apt-get install --no-install-recommends --yes make=* \
     && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+    && rm --recursive --force /var/lib/apt/lists/*
 
 #### build
 FROM base AS build
