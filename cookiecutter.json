@@ -6,6 +6,7 @@
   "project_license": "MIT",
   "author_name": "Felix Börner",
   "author_github_username": "escalate",
+  "author_code_of_conduct_contact": "github [at] felix [dash] boerner [dot] de",
   "author_funding_url": "https://paypal.me/felixboerner",
   "_copy_without_render": [".github/workflows/*.yml"]
 }
