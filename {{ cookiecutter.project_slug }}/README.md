@@ -30,7 +30,7 @@ Options:
 
 We welcome contributions of all kinds 🎉.
 
-Please read our [CONTRIBUTING.md](https://github.com/{{ cookiecutter.author_github_username }}/{{ cookiecutter.project_slug }}/blob/master/CONTRIBUTING.md) guide to learn how to get started, submit changes, and follow our contribution standards.
+Please read our [Contributing](https://github.com/{{ cookiecutter.author_github_username }}/{{ cookiecutter.project_slug }}/blob/master/CONTRIBUTING.md) guide to learn how to get started, submit changes, and follow our contribution standards.
 
 ## 🌐 Code of Conduct
 
