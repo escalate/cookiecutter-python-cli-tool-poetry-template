@@ -6,7 +6,7 @@ RUN useradd --create-home python-user
 #### base
 FROM python AS base
 
-ARG POETRY_VERSION="2.1.1"
+ARG POETRY_VERSION="2.2.1"
 ENV POETRY_VIRTUALENVS_PATH=".venv" \
     POETRY_VIRTUALENVS_IN_PROJECT="true"
 
